@@ -107,6 +107,12 @@ autorunsc.exe > tmp.txt
 type tmp.txt >> fredz.txt
 @echo ****************************************************************************************** >> fredz.txt
 @echo *                                                                                        * >> fredz.txt
+@echo Scheduled Tasks >> fredz.txt
+@echo *                                                                                        * >> fredz.txt
+@echo ****************************************************************************************** >> fredz.txt
+schtasks >> fredz.txt
+@echo ****************************************************************************************** >> fredz.txt
+@echo *                                                                                        * >> fredz.txt
 @echo File Access >> fredz.txt
 @echo *                                                                                        * >> fredz.txt
 @echo ****************************************************************************************** >> fredz.txt
